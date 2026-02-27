@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "elysia",
-      "source": "./plugin.json",
+      "source": "./",
       "description": "Elysia.js framework support with Zod validation - routes, guards, lifecycle hooks, plugins"
     }
   ]
