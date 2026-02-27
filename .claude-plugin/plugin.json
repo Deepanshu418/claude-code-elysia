@@ -6,6 +6,6 @@
     "name": "ddixit"
   },
   "keywords": ["elysia", "bun", "typescript", "api", "web-framework", "zod"],
-  "homepage": "https://github.com/ddixit/claude-code-elysia",
+  "homepage": "https://github.com/Deepanshu418/claude-code-elysia",
   "mcpServers": "./mcp.json"
 }
