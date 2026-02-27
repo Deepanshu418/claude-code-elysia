@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "elysia",
-      "source": ".",
+      "source": "https://github.com/Deepanshu418/claude-code-elysia.git",
       "description": "Elysia.js framework support with Zod validation - routes, guards, lifecycle hooks, plugins"
     }
   ]
