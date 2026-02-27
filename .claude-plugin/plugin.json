@@ -1,0 +1,11 @@
+{
+  "name": "elysia",
+  "version": "1.0.0",
+  "description": "Elysia.js framework support for Claude Code with Zod validation",
+  "author": {
+    "name": "ddixit"
+  },
+  "keywords": ["elysia", "bun", "typescript", "api", "web-framework", "zod"],
+  "homepage": "https://github.com/ddixit/claude-code-elysia",
+  "mcpServers": "./mcp.json"
+}

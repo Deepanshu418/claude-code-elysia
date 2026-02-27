@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'FILE=\"${CLAUDE_OUTPUT_FILE:-$FILE}\"; if [ -n \"$FILE\" ] && grep -l \"elysia\\|Elysia\" \"$FILE\" 2>/dev/null; then echo \"💡 Elysia file detected. Consider running: bun check\"; fi'"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "elysia-docs": {
+      "command": "bun",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp/server.ts"],
+      "env": {
+        "ELYSIA_DOCS_URL": "https://elysiajs.com"
+      }
+    }
+  }
+}

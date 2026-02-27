@@ -1,0 +1,13 @@
+{
+  "name": "elysia-plugins",
+  "owner": {
+    "name": "ddixit"
+  },
+  "plugins": [
+    {
+      "name": "elysia",
+      "source": ".",
+      "description": "Elysia.js framework support with Zod validation - routes, guards, lifecycle hooks, plugins"
+    }
+  ]
+}

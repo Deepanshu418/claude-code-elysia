@@ -1,0 +1,10 @@
+# Override global gitignore - explicitly track everything
+!*
+
+# Then ignore what we don't want
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+mcp/elysia-mcp
